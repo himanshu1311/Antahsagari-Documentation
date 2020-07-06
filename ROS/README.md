@@ -23,3 +23,14 @@ First of all, it's a good idea to read through the official ROS [tutorials](http
 For a quick revision go through this [link](https://docs.google.com/document/d/1ldGKymQ69mHqShosXWEiA1hdclQTj8zcJI4iImfuoGE/edit?usp=sharing).
 
 
+## ROS Architecture:
+ROS is a robotic middleware, a collection of software framework for robot software development. This tool provide a great abstraction for client server
+program. With ROS there is node, corresponding to the execution of the code and topics, a place that receive messages published from node. 
+
+- Sensors on the robot collect valuable data of its surrounding and gives us a direct or indirect knowing of its physical state.
+- These data are then sent and processed in the controller that will output a command for the actuators. The command evolves with time according to the desired         state and the current one.
+- The main pros is that nodes can subscribe to topics to listen messages and publish on topics to share data with other nodes.
+## MAVlink:
+To communicate, the ROV used MAVlink witch is a lightweight messaging protocol design for drones and moving robots. To deal with this message, the
+ROV runs Ardusub, a branch of ardupilot project for underwater vehicles on a Pixhawk, a hardware electronic card to easely connect sensors and pwm motors
+with MAVlink. On the topside computer, the software QGroundControl is made for handling MAVlink message, conjure Ardusub on the ROV.
