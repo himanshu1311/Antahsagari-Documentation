@@ -7,6 +7,7 @@ Antahsagri  is an under-water remotely operated vehicle (ROV), designed to explo
 - 6 Thrusters T100
 - 6 Basic Esc
 - 1 Bar30 pressure sensor
+- 1 Temperature Sensor
 - 2 Leak sensors
 - 2 Lumen Subsea Lights
 - 1 Raspberry Pi , used as a companion computer
@@ -30,7 +31,15 @@ program. With ROS there is node, corresponding to the execution of the code and 
 - Sensors on the robot collect valuable data of its surrounding and gives us a direct or indirect knowing of its physical state.
 - These data are then sent and processed in the controller that will output a command for the actuators. The command evolves with time according to the desired         state and the current one.
 - The main pros is that nodes can subscribe to topics to listen messages and publish on topics to share data with other nodes.
+
 ## MAVlink:
 To communicate, the ROV used MAVlink witch is a lightweight messaging protocol design for drones and moving robots. To deal with this message, the
 ROV runs Ardusub, a branch of ardupilot project for underwater vehicles on a Pixhawk, a hardware electronic card to easely connect sensors and pwm motors
 with MAVlink. On the topside computer, the software QGroundControl is made for handling MAVlink message, conjure Ardusub on the ROV.
+
+## Ardusub:
+
+The ArduSub project is a fully-featured open-source solution for remotely operated underwater vehicles (ROVs) and autonomous underwater vehicles (AUVs). ArduSub is a part of the ArduPilot project, and was originally derived from the ArduCopter code. ArduSub has extensive capabilities out of the box including feedback stability control, depth and heading hold, and autonomous navigation.
+
+ArduSub works seamlessly with Ground Control Station software that can monitor vehicle telemetry and perform powerful mission planning activities. 
+
