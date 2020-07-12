@@ -18,8 +18,13 @@ Antahsagri  is an under-water remotely operated vehicle (ROV), designed to explo
 The small size of the Antahsagri and its high manoeuvrability is perfect to achieve exploration missions in tiny places. Also, its wide variety of sensors make the automation easier.
 
 
-## Brushing up ROS Skills
-The Robot Operating System (ROS) is a flexible framework for writing robot software.ROS is a software suite which allows for quick and easy building of autonomous robotic systems. ROS should be considered as a set of tools for creating new solutions or adjusting already existing ones. A major advantage of this system is a great set of drivers and implemented algorithms widely used in robotics.
+## What is ROS?
+The Robot Operating System (ROS) is a flexible framework for writing robot software. ROS is a software suite which allows for quick and easy building of autonomous robotic systems. ROS should be considered as a set of tools for creating new solutions or adjusting already existing ones. A major advantage of this system is a great set of drivers and implemented algorithms widely used in robotics.
+
+## Why should I use ROS?
+ROS provides functionality for hardware abstraction, device drivers, communication between processes over multiple machines, tools for testing and visualization, and much more.The key feature of ROS is the way the software is run and the way it communicates, allowing you to design complex software without knowing how certain hardware works. ROS provides a way to connect a network of processes (nodes) with a central hub. Nodes can be run on multiple devices, and they connect to that hub in various ways.
+### ROS Tutorials
+The main ways of creating the network are providing requestable services, or defining publisher/subscriber connections with other nodes. Both methods communicate via specified message types.
 First of all, it's a good idea to read through the official ROS [tutorials](http://wiki.ros.org/ROS/Tutorials) before going forward.
 For a quick revision go through this [link](https://docs.google.com/document/d/1ldGKymQ69mHqShosXWEiA1hdclQTj8zcJI4iImfuoGE/edit?usp=sharing).
 
@@ -42,4 +47,5 @@ with MAVlink. On the topside computer, the software QGroundControl is made for h
 The ArduSub project is a fully-featured open-source solution for remotely operated underwater vehicles (ROVs) and autonomous underwater vehicles (AUVs). ArduSub is a part of the ArduPilot project, and was originally derived from the ArduCopter code. ArduSub has extensive capabilities out of the box including feedback stability control, depth and heading hold, and autonomous navigation.
 
 ArduSub works seamlessly with Ground Control Station software that can monitor vehicle telemetry and perform powerful mission planning activities. 
+
 
