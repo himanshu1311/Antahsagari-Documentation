@@ -14,6 +14,10 @@ Antahsagri  is an under-water remotely operated vehicle (ROV), designed to explo
 - 1 camera
 - 1 servo for the camera tilt
 - 1 PixHawk with internal 9 DOF IMU
+<p align="center">
+  <img src="https://scontent.fixr1-1.fna.fbcdn.net/v/t1.0-0/p180x540/87168843_1406226076246389_6672358876907569152_o.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=IAyL5wX5IqkAX9X6gN0&_nc_ht=scontent.fixr1-1.fna&_nc_tp=6&oh=833e10a8637677822bc62130d7015098&oe=5F320F34">
+</p>
+
 
 The small size of the Antahsagri and its high manoeuvrability is perfect to achieve exploration missions in tiny places. Also, its wide variety of sensors make the automation easier.
 
@@ -21,9 +25,13 @@ The small size of the Antahsagri and its high manoeuvrability is perfect to achi
 ## What is ROS?
 The Robot Operating System (ROS) is a flexible framework for writing robot software. ROS is a software suite which allows for quick and easy building of autonomous robotic systems. ROS should be considered as a set of tools for creating new solutions or adjusting already existing ones. A major advantage of this system is a great set of drivers and implemented algorithms widely used in robotics.
 
+<p align="center">
+  <img src="https://media.geeksforgeeks.org/wp-content/uploads/20191213180658/ros-instructables.jpg">
+</p>
+
 ## Why should I use ROS?
 ROS provides functionality for hardware abstraction, device drivers, communication between processes over multiple machines, tools for testing and visualization, and much more.The key feature of ROS is the way the software is run and the way it communicates, allowing you to design complex software without knowing how certain hardware works. ROS provides a way to connect a network of processes (nodes) with a central hub. Nodes can be run on multiple devices, and they connect to that hub in various ways.
-### ROS Tutorials
+## ROS Tutorials
 The main ways of creating the network are providing requestable services, or defining publisher/subscriber connections with other nodes. Both methods communicate via specified message types.
 First of all, it's a good idea to read through the official ROS [tutorials](http://wiki.ros.org/ROS/Tutorials) before going forward.
 For a quick revision go through this [link](https://docs.google.com/document/d/1ldGKymQ69mHqShosXWEiA1hdclQTj8zcJI4iImfuoGE/edit?usp=sharing).
@@ -38,7 +46,8 @@ program. With ROS there is node, corresponding to the execution of the code and 
 - The main pros is that nodes can subscribe to topics to listen messages and publish on topics to share data with other nodes.
 
 ## MAVlink:
-To communicate, the ROV used MAVlink witch is a lightweight messaging protocol design for drones and moving robots. To deal with this message, the
+
+To communicate, the ROV used MAVlink which is a lightweight messaging protocol design for drones and moving robots. To deal with this message, the
 ROV runs Ardusub, a branch of ardupilot project for underwater vehicles on a Pixhawk, a hardware electronic card to easely connect sensors and pwm motors
 with MAVlink. On the topside computer, the software QGroundControl is made for handling MAVlink message, conjure Ardusub on the ROV.
 
@@ -48,4 +57,11 @@ The ArduSub project is a fully-featured open-source solution for remotely operat
 
 ArduSub works seamlessly with Ground Control Station software that can monitor vehicle telemetry and perform powerful mission planning activities. 
 
+## Work Done till now:
 
+  - All sensors reading publishing through ROS node
+  - Video streaming capture with OpenCV using ROS
+  - Arming and setting Flight mode.
+  - Locomotion control using Keyboard and Servo Control, integrated with ROS
+  - Getting all the data of ROV state using ROS.
+  
