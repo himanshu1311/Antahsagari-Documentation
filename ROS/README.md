@@ -23,6 +23,18 @@ program. With ROS there is node, corresponding to the execution of the code and 
 - These data are then sent and processed in the controller that will output a command for the actuators. The command evolves with time according to the desired         state and the current one.
 - The main pros is that nodes can subscribe to topics to listen messages and publish on topics to share data with other nodes.
 
+### Requirements
+
+- Git
+- ROS Melodic Version installed on UBUNTU 18.04 LTS
+- Python 
+   - OpenCV
+   - [Pymavlink](https://www.ardusub.com/developers/pymavlink.html)
+   - [pynput](https://pypi.org/project/pynput/)
+   - [gi, gobject](https://wiki.ubuntu.com/Novacut/GStreamer1.0)
+   - mavros
+- QGroundControl
+
 ## MAVlink:
 
 To communicate, the ROV used MAVlink which is a lightweight messaging protocol design for drones and moving robots. To deal with this message, the
