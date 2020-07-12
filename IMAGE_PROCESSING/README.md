@@ -20,7 +20,7 @@ Read More:
 1. https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_meanshift/py_meanshift.html
 2. https://pysource.com/2018/04/05/object-tracking-with-mean-shift-opencv-3-4-with-python-3-tutorial-29/
 
-<img src="images/meanshift.png">
+<img src="images/meanshift.png" width="700" height="500">
 
 ### KCF Tracker
 
@@ -30,7 +30,7 @@ Read More:
 1. https://docs.opencv.org/3.4/d2/dff/classcv_1_1TrackerKCF.html
 2. https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/
 
-<img src="images/kcf.png">
+<img src="images/kcf.png" width="700" height="500">
 
 ### Homography
 
@@ -40,7 +40,7 @@ Read More:
 1. https://docs.opencv.org/master/d1/de0/tutorial_py_feature_homography.html
 2. https://pysource.com/2018/06/05/object-tracking-using-homography-opencv-3-4-with-python-3-tutorial-34/
 
-<img src="images/homography.png" width="600" height="500">
+<img src="images/homography.png" width="700" height="500">
 
 ### Contour Detection and Tracking
 
@@ -50,7 +50,7 @@ Read More:
 1. https://docs.opencv.org/3.3.1/d4/d73/tutorial_py_contours_begin.html
 2. https://www.youtube.com/watch?v=MkcUgPhOlP8
 
-<img src="images/contour.png" width="600" height="500">
+<img src="images/contour.png" width="700" height="500">
 
 ### Camshift
 
@@ -60,7 +60,7 @@ Read More:
 1. https://www.geeksforgeeks.org/track-objects-with-camshift-using-opencv/
 2. https://pysource.com/2018/04/09/object-tracking-with-camshift-opencv-3-4-with-python-3-tutorial-30/
 
-<img src="images/camshift.png" width="600" height="500">
+<img src="images/camshift.png" width="700" height="500">
 
 
 ### Color based Object Detection
@@ -71,7 +71,7 @@ Read More:
 1. https://www.geeksforgeeks.org/detection-specific-colorblue-using-opencv-python/
 2. https://www.youtube.com/watch?v=3D7O_kZi8-o
 
-<img src="images/color.png" width="600" height="500">
+<img src="images/color.png" width="700" height="500">
 
 ### Optical Flow
 
@@ -81,7 +81,7 @@ Read More:
 1.https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_video/py_lucas_kanade/py_lucas_kanade.html
 2.https://pysource.com/2018/05/14/optical-flow-with-lucas-kanade-method-opencv-3-4-with-python-3-tutorial-31/
 
-<img src="images/optical.png" width="600" height="500">
+<img src="images/optical.png" width="700" height="500">
 
 ### Canny Edge Detection
 
@@ -91,4 +91,4 @@ Read More:
 1. https://docs.opencv.org/trunk/da/d22/tutorial_py_canny.html
 2. https://www.youtube.com/watch?v=CGfXCkHNemo
 
-<img src="images/canny.png" width="600" height="500">
+<img src="images/canny.png" width="700" height="500">
