@@ -8,7 +8,7 @@ Antahsagri is an underwater ROV(Remotely Operated Vehicle) which uses camera for
 
 All this is achived using  OpenCV, Deep Learning, and Python programming language.
 
-#OpenCV
+# OpenCV
 
 ### Underwater Object Detection Algorithms
 
