@@ -1,6 +1,6 @@
 # Introduction
 
-Ever wanted to explore what’s beneath the river Brahma or what secrets our delightful lakes are hiding. If yes, then welcome to team antahsagri where we find answers to these questions through our remotely operated vehicle. Our team works on diverse modules from ROV designing to its navigation, incorporating image processing and a versatile framework ROS.
+Ever wanted to explore what’s beneath the river Brahmaputra or what secrets our delightful lakes are hiding. If yes, then welcome to team antahsagri where we find answers to these questions through our remotely operated vehicle, Antahsagari. Our team works on diverse modules from ROV designing to its navigation, incorporating image processing and a versatile framework ROS.
 
 
 ## AIM:
@@ -9,7 +9,7 @@ Ever wanted to explore what’s beneath the river Brahma or what secrets our del
 - We are trying to analyse the impact of urbanisation on structure and function of river system using the chemical data extracted from the water using sensors.
 - It can also be used as a survey platforms to map sea floor or characterise physical, chemical, biological properties of water.
 - It can be used to perform infrastructure inspections of pipeline systems so that divers are not put in harm's way.
-- It can be used as survey platforms to map the seafloor or characterize the physical, chemical, or biological properties of the water.
+
 
 ## Physical architecture:
 
