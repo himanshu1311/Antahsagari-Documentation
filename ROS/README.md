@@ -1,27 +1,5 @@
 # Getting Started
 
-### Physical architecture:
-
-Antahsagri  is an under-water remotely operated vehicle (ROV), designed to explore the underwater world and collect data for research and analysis. It is equipped with several sensors:
-
-- 6 Thrusters T100
-- 6 Basic Esc
-- 1 Bar30 pressure sensor
-- 1 Temperature Sensor
-- 2 Leak sensors
-- 2 Lumen Subsea Lights
-- 1 Raspberry Pi , used as a companion computer
-- 1 camera
-- 1 servo for the camera tilt
-- 1 PixHawk with internal 9 DOF IMU
-<p align="center">
-  <img src="https://scontent.fixr1-1.fna.fbcdn.net/v/t1.0-0/p180x540/87168843_1406226076246389_6672358876907569152_o.jpg?_nc_cat=101&_nc_sid=110474&_nc_ohc=IAyL5wX5IqkAX9X6gN0&_nc_ht=scontent.fixr1-1.fna&_nc_tp=6&oh=833e10a8637677822bc62130d7015098&oe=5F320F34">
-</p>
-
-
-The small size of the Antahsagri and its high manoeuvrability is perfect to achieve exploration missions in tiny places. Also, its wide variety of sensors make the automation easier.
-
-
 ## What is ROS?
 The Robot Operating System (ROS) is a flexible framework for writing robot software. ROS is a software suite which allows for quick and easy building of autonomous robotic systems. ROS should be considered as a set of tools for creating new solutions or adjusting already existing ones. A major advantage of this system is a great set of drivers and implemented algorithms widely used in robotics.
 
