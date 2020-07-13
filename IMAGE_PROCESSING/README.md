@@ -109,6 +109,7 @@ For image recognition,classification, firstly we trained our custom dataset on C
 <img src="images/CNN_result.png" width="1250" height="488">
 To know more about CNNs model [Tutorials](https://www.tensorflow.org/tutorials/images/cnn). 
 
+
 About different layers used in model [Explore here](https://keras.io/api/layers/convolution_layers/).
 
 #### Transfer Learning 
