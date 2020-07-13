@@ -35,11 +35,29 @@ program. With ROS there is node, corresponding to the execution of the code and 
    - mavros
 - QGroundControl
 
+## Software Components
+There are three major software components involved in the operation :
+**ArduSub**: ArduSub is the autopilot software responsible for processing pilot input and controlling the ROV. ArduSub is the 'brains' of the ROV.
+**QGroundControl**: QGroundControl is the user interface for operating the ROV.
+**Companion**: The Raspberry Pi Companion Computer runs software that relays communications between the autopilot and QGroundControl via Ethernet communications. The Companion software also streams HD video to QGroundControl.
+
+Here is a typical diagram of the software components and their interactions:
+
+
+
+<a href="url"><img src="https://www.ardusub.com/images/software-components.jpg" align="center" ></a>
+
+
 ## MAVlink:
 
 To communicate, the ROV used MAVlink which is a lightweight messaging protocol design for drones and moving robots. To deal with this message, the
 ROV runs Ardusub, a branch of ardupilot project for underwater vehicles on a Pixhawk, a hardware electronic card to easely connect sensors and pwm motors
 with MAVlink. On the topside computer, the software QGroundControl is made for handling MAVlink message, conjure Ardusub on the ROV.
+
+### MAVLINK Common Message Set
+
+The MAVLink common message set is defined in common.xml. It contains the standard definitions that are managed by the MAVLink project.
+The definitions cover functionality that is considered useful to most ground control stations and autopilots. MAVLink-compatible systems are expected to use these definitions where possible (if an appropriate message exists) rather than rolling out variants in their own dialects.
 
 ## Ardusub:
 
