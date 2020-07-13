@@ -116,6 +116,7 @@ About different layers used in model https://keras.io/api/layers/convolution_lay
 We trained ResNet50 model(50 layer Residual Network) on custom dataset which resulted with 98.7% training accuracy and 95.7% test accuracy. This model is not loaded with weights of pretrained model and replaced last fully connected layer with own classifier. Built two models with different methods within pre-processing.
 ###### Result:
 <img src="images/Resnet50_result.jpg" width="854" height="480">
+
 #### Progress
 - Trying different pretained models and learning its architecture.
 - For detection and segmentation purpose, working on Mask R-CNN, Faster R-CNN, CenterNet and learning features, architecture and techniques required enough to create custom Neural Network for project. 
