@@ -98,3 +98,18 @@ Link to results of above algorithms : https://drive.google.com/drive/folders/1E0
 
 # Deep Learning 
 
+Deep Learning Algorithms that we have used based on :
+ - Classification
+ - Detection
+ - Segmentation
+ 
+### Classification 
+For image recognition,classification, firstly we trained our custom dataset on Convolutional Neural Network (custom) using keras and tensorflow libraries. To note that we haven't applied any filters on the input images. Though it was given with 98% training accuracy rate, 90% testing rate. 
+To know more about CNNs model : [tensorflow doc](https://www.tensorflow.org/tutorials/images/cnn)  
+About different layers used in model : [Explore](https://keras.io/api/layers/convolution_layers/)
+
+##### Transfer Learning 
+###### ResNet50 :
+We trained ResNet50 model (50 layer Residual Network ) on custom dataset 
+  
+   
