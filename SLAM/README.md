@@ -37,7 +37,7 @@ Kalman filter is applicable for linear systems only. For nonlinear systems, itâ€
 - Process Noise covariance matrix(Q) - The Q matrix corresponds to the uncertainty that is expected in the state equations. 
 
 - Measurement Noise matrix(R) - It measures the uncertainty in the sensor data.
-Read more about kalman filter at:
+Read more about kalman filter at::
 http://ieeexplore.ieee.org/document/4588811/
 
 Hereâ€™s the results of kalman filter for z coordinate implemented on data from SITL(Ardusub).
