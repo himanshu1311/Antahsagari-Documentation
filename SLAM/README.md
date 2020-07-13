@@ -37,4 +37,25 @@ Kalman filter is applicable for linear systems only. For nonlinear systems, it�
 - Process Noise covariance matrix(Q) - The Q matrix corresponds to the uncertainty that is expected in the state equations. 
 
 - Measurement Noise matrix(R) - It measures the uncertainty in the sensor data.
+Read more about kalman filter at:
+http://ieeexplore.ieee.org/document/4588811/
+
+Here’s the results of kalman filter for z coordinate implemented on data from SITL(Ardusub).
+<img src="image/Flowchart3.png" >
+
+### SENSORS IN USE
+
+- **9 DOF IMU** : The abbreviation stands for Inertial Measurement Unit which consists of 3 - axis accelerometer, 3-axis gyroscope and 3-axis magnetometers. Instead of IMU we have used a pixhawk controller which houses 2 IMUs and an implemented extended kalman filter to output accelerations in all 3 directions and Quaternions for roll, pitch and yaw estimation.
+
+- **Depth/Pressure Sensor** : This sensor is used as a supplementary sensor to feed the depth measurement(z coordinate) into the filter.
+
+- **Ping Sonar** : It is fitted at the bottom of the ROV, facing in downward direction for collecting depth values of river/lake/sea floor relative to ROV. The depth values are further processed to map these floors.
+
+### OTHER SUPPLEMENTARY SENSORS 
+- DVL : This stands for Doppler Velocity Log which uses the principle of doppler shift to measure ROV speed relative to the floor. It is one of the most reliable sensors in navigation but limited to big firms due to it’s high cost.
+
+- Underwater acoustic positioning system : These include LBL, SBL, and USBL. These systems require great effort for installation, beyond a special demand for logistics, having a high cost. Besides, these solutions limit the area of operation of the robot.
+
+Read more at : https://en.wikipedia.org/wiki/Underwater_acoustic_positioning_system
+
 
