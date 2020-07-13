@@ -104,12 +104,18 @@ Deep Learning Algorithms that we have used based on :
  - Segmentation
  
 ### Classification 
-For image recognition,classification, firstly we trained our custom dataset on Convolutional Neural Network (custom) using keras and tensorflow libraries. To note that we haven't applied any filters on the input images. Though it was given with 98% training accuracy rate, 90% testing rate. 
-To know more about CNNs model : [tensorflow doc](https://www.tensorflow.org/tutorials/images/cnn)  
-About different layers used in model : [Explore](https://keras.io/api/layers/convolution_layers/)
+For image recognition,classification, firstly we trained our custom dataset on Convolutional Neural Network (custom) using keras and tensorflow libraries. To note that we haven't applied any filters on the input images. Though it was given with 98% training accuracy rate, 90% testing rate.
+###### Result:
+<img src="images/CNN_result.png" width="1250" height="488">
+To know more about CNNs model : [Click here](https://www.tensorflow.org/tutorials/images/cnn)  
+About different layers used in model : [Explore here](https://keras.io/api/layers/convolution_layers/)
 
 ##### Transfer Learning 
 ###### ResNet50 :
-We trained ResNet50 model (50 layer Residual Network ) on custom dataset 
+We trained ResNet50 model(50 layer Residual Network) on custom dataset which resulted with 98.7% training accuracy and 95.7% test accuracy. This model is not loaded with weights of pretrained model and replaced last fully connected layer with own classifier. Built two models with different methods within pre-processing.
+
+#### Current progress
+- Trying different pretained models and learning its architecture.
+- For detection and segmentation purpose, working on Mask R-CNN, Faster R-CNN, CenterNet and learning features, architecture and techniques required enough to create custom Neural Network for project. 
   
    
