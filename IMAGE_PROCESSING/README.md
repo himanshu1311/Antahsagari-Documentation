@@ -94,3 +94,7 @@ Read More:
 <img src="images/canny.png" width="700" height="500">
 
 Link to results of above algorithms : https://drive.google.com/drive/folders/1E0kjh6NciFzA5rFDHYBqueFQQquGJSEK?usp=sharing
+
+
+# Deep Learning 
+
