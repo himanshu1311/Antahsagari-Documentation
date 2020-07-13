@@ -107,9 +107,9 @@ Deep Learning Algorithms that we have used based on :
 For image recognition,classification, firstly we trained our custom dataset on Convolutional Neural Network (custom) using keras and tensorflow libraries. To note that we haven't applied any filters on the input images. Though it was given with 98% training accuracy rate, 90% testing rate.
 ###### Result:
 <img src="images/CNN_result.png" width="1250" height="488">
-To know more about CNNs model https://www.tensorflow.org/tutorials/images/cnn. 
+To know more about CNNs model [Click here](https://www.tensorflow.org/tutorials/images/cnn). 
 
-About different layers used in model https://keras.io/api/layers/convolution_layers/.
+About different layers used in model [Explore here](https://keras.io/api/layers/convolution_layers/).
 
 #### Transfer Learning 
 ###### ResNet50 :
