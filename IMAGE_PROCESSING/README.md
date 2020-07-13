@@ -111,7 +111,7 @@ To know more about CNNs model https://www.tensorflow.org/tutorials/images/cnn.
 
 About different layers used in model https://keras.io/api/layers/convolution_layers/.
 
-##### Transfer Learning 
+#### Transfer Learning 
 ###### ResNet50 :
 We trained ResNet50 model(50 layer Residual Network) on custom dataset which resulted with 98.7% training accuracy and 95.7% test accuracy. This model is not loaded with weights of pretrained model and replaced last fully connected layer with own classifier. Built two models with different methods within pre-processing.
 ###### Result:
