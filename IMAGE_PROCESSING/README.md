@@ -119,8 +119,16 @@ For proper understanding in using Resnet50 to custom dataset. Refer this [Blog](
 ###### Result:
 <img src="images/Resnet50_result.jpg" width="854" height="480">
 
+### Segmentation
+The Mask Region-based Convolutional Neural Network, or Mask R-CNN, model is one of the state-of-the-art approaches for object recognition tasks. The [Matterport Mask R-CNN](https://github.com/matterport/Mask_RCNN) repository provides a library that allows you to develop and train Mask R-CNN Keras models for your own object detection tasks.
+Trained Mask R-CNN using custom dataset having three classes. We used pretrained model [weights](https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5) of MS-COCO dataset, by which time can be saved and performance can be improved.
+# Following are the results on test set:
+<img src="images/test_mrcnn.png" width="854" height="480">
+
+<img src="images/mug_mrcnnn.png" width="854" height="480">
+
 #### Progress
 - Trying different pretained models and learning its architecture.
-- For detection and segmentation purpose, working on Mask R-CNN, Faster R-CNN, CenterNet and learning features, architecture and techniques required enough to create custom Neural Network for project. 
-  
+- For detection and segmentation purpose, working on Faster R-CNN, CenterNet and learning features, architecture and techniques required enough to create custom Neural Network for project. 
+- Working on Image Enhancement Algorithms using Neural Networks and Computer Vision.
    
