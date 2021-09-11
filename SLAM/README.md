@@ -44,6 +44,15 @@ http://ieeexplore.ieee.org/document/4588811/
 Here’s the results of kalman filter for z coordinate implemented on data from SITL(Ardusub).
 <img src="image/Flowchart3.png" >
 
+### RESULTS
+#### Dead Reckoning using simulated Accelerometer, Gyro sensor and Magnetometer readings from Ardusub
+
+  <img src="image/Dead Reckoning.gif">
+     
+#### Ground truth localization of ROV using Ground truth latitude and longitude readings from Ardusub
+
+  <img src="image/Ground truth.gif" >
+
 ### SENSORS IN USE
 
 - **9 DOF IMU** : The abbreviation stands for Inertial Measurement Unit which consists of 3 - axis accelerometer, 3-axis gyroscope and 3-axis magnetometers. Instead of IMU we have used a pixhawk controller which houses 2 IMUs and an implemented extended kalman filter to output accelerations in all 3 directions and Quaternions for roll, pitch and yaw estimation.
